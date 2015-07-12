@@ -1,3 +1,5 @@
+#I'm assuming you already downloaded "household_power_consumption.txt" from the Coursera website and put it into your working directory
+
 setwd("./Documents/Coursera/Exploratory Data Analysis")
 dataset <- read.table("household_power_consumption.txt",nrows=100,sep=";",header=TRUE)
 classes <- sapply(dataset, class)
